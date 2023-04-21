@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(124, 41, 16);
+    color: rgb(185, 72, 6);
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: rgb(185, 72, 6);
+    text-decoration: none;
+}
+
+.brands_list li{
+    display: inline;
+    margin-left: 16px; 
+    font-size: 18px;
+}
+
+.brands_list img{
+    height: 24px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.img_list li{
+    display: inline;
+}
+
+.img_list img{
+    height: 380px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
